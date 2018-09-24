@@ -3,12 +3,13 @@
     "plugins": [
         "-search",
         "search-pro",
-        "puml"
+        "puml",
+        "include-codeblock"
     ],
     "pluginsConfig": {
         "search-pro": {
             "cutWordLib": "nodejieba",
             "defineWord" : ["Gitbook Use"]
+    	}
     }
-}
 }
