@@ -1,0 +1,14 @@
+{
+    "language" : "zh-hans",
+    "plugins": [
+        "-search",
+        "search-pro",
+        "puml"
+    ],
+    "pluginsConfig": {
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["Gitbook Use"]
+    }
+}
+}
