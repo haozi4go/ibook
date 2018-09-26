@@ -1,15 +1,43 @@
 {
+	"title" : "小红书",
+	"author" : "haozi",
+	"description" : "有些事不是因为看到了希望才去坚持,而是因为坚持才会看到了希望",
     "language" : "zh-hans",
+	"links" : {
+		"sidebar" : {
+			"Home" : "https://blog.chuangzhi8.cn"
+		}
+	},
     "plugins": [
         "-search",
         "search-pro",
-        "puml",
-        "include-codeblock"
+        "include-codeblock",
+		"splitter",
+		"github",
+		"tbfed-pagefooter",
+		"favicon"
     ],
     "pluginsConfig": {
         "search-pro": {
             "cutWordLib": "nodejieba",
             "defineWord" : ["Gitbook Use"]
-    	}
+    	},
+		"github" : {
+			"url" : "https://github.com/haozi4go/ibook"
+		},
+		"tbfed-pagefooter" : {
+			"copyright" : "Copyright &copy haozi 2018",
+			"modify_label" : "该文件修订时间：",
+			"modify_format" : "YYYY-MM-DD HH:mm:ss"
+		},
+		"favicon": {
+            "shortcut": "/gitbook/images/favicon.ico",
+            "bookmark": "/gitbook/images/favicon.ico",
+            "appleTouch": "/gitbook/images/logo-b.png",
+            "appleTouchMore": {
+                "120x120": "/gitbook/images/logo-b.png",
+                "180x180": "/gitbook/images/logo-b.png"
+            }
+        }
     }
 }
