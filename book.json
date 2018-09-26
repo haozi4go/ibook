@@ -15,7 +15,11 @@
 		"splitter",
 		"github",
 		"tbfed-pagefooter",
-		"favicon"
+		"favicon",
+		"disqus",
+		"sectionx",
+		"etoc",
+		"tags"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -26,9 +30,9 @@
 			"url" : "https://github.com/haozi4go/ibook"
 		},
 		"tbfed-pagefooter" : {
-			"copyright" : "Copyright &copy haozi 2018",
-			"modify_label" : "该文件修订时间：",
-			"modify_format" : "YYYY-MM-DD HH:mm:ss"
+			"copyright" : "©2018 haozi",
+			"modify_label" : "修改时间：",
+			"modify_format" : "YYYY-MM-DD HH:mm"
 		},
 		"favicon": {
             "shortcut": "/gitbook/images/favicon.ico",
@@ -38,6 +42,9 @@
                 "120x120": "/gitbook/images/logo-b.png",
                 "180x180": "/gitbook/images/logo-b.png"
             }
-        }
+        },
+		"disqus": {
+			"shortName": "gitbookuse"
+		}
     }
 }
