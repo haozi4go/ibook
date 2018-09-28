@@ -14,12 +14,13 @@
         "include-codeblock",
 		"splitter",
 		"github",
-		"tbfed-pagefooter",
+		"-tbfed-pagefooter",
 		"favicon",
 		"disqus",
 		"sectionx",
 		"etoc",
-		"tags"
+		"tags",
+		"page-footer-ex"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -45,6 +46,12 @@
         },
 		"disqus": {
 			"shortName": "gitbookuse"
-		}
+		},
+		"page-footer-ex": {
+            "copyright": "By <em>haozi</em>",
+            "markdown": false,
+            "update_label": "<i>updated </i>",
+            "update_format": "YYYY-MM-DD HH:mm"
+        }
     }
 }
