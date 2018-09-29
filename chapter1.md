@@ -1,4 +1,4 @@
-你好
+# GitBook中的book.json配置
 
 ```json
 {
@@ -17,4 +17,24 @@
     }
 }
 ```
+## 插件参考
+
 http://chuansong.me/n/1137976951453  changyong
+
+# 其他基本设置
+
+
+
+
+# test1
+
+
+
+
+#test2
+
+
+
+
+
+# test3

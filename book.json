@@ -14,12 +14,11 @@
         "include-codeblock",
 		"splitter",
 		"github",
-		"-tbfed-pagefooter",
 		"favicon",
-		"disqus",
-		"sectionx",
-		"etoc",
-		"tags",
+		"-disqus",
+		"-sectionx",
+		"anchor-navigation-ex-toc",
+		"-tags",
 		"page-footer-ex"
     ],
     "pluginsConfig": {
@@ -29,11 +28,6 @@
     	},
 		"github" : {
 			"url" : "https://github.com/haozi4go/ibook"
-		},
-		"tbfed-pagefooter" : {
-			"copyright" : "©2018 haozi",
-			"modify_label" : "修改时间：",
-			"modify_format" : "YYYY-MM-DD HH:mm"
 		},
 		"favicon": {
             "shortcut": "/gitbook/images/favicon.ico",
